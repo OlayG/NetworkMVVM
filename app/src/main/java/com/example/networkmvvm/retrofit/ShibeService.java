@@ -10,6 +10,7 @@ import retrofit2.http.Query;
 
 public interface ShibeService {
 
+    // Constants for Shibe API get method declared
     @GET(Constants.SHIBE_PATH)
     Call<List<String>> getShibes(
             @Query("count") String count,

@@ -18,7 +18,6 @@ public class MainViewModel extends ViewModel {
 
     private MutableLiveData<List<String>> shibes = new MutableLiveData<>();
     private MutableLiveData<String> error = new MutableLiveData<>();
-
     private Repository repo = Repository.getInstance();
 
     public void fetchShibeData(int count) {
